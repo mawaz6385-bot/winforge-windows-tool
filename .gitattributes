@@ -1,0 +1,14 @@
+# Language detection rules
+# Do not edit manually
+# Normalize line endings
+build/* linguist-vendored
+* text=auto eol=lf
+*.jpeg binary
+public/** linguist-vendored   
+*.tsx linguist-detectable
+
+*.png binary
+
+*.yaml linguist-detectable=false
+
+*.html linguist-vendored
